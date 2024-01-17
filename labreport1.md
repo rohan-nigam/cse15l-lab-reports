@@ -59,4 +59,18 @@
 2. Since there are no arguments provided, the terminal defaulted to reading the input provided from the keyboard. For this reason, whatever is typed out is repeated back to you.
 3. No error.
 
+**Path to a directory as an Argument**
 
+![Image](catpatharg.jpg)
+
+1. The working directory was `/home`
+2. The output explains that lecture1 is a directory. Since you can not cat a path to a directory, there is no content that would be displayed.
+3. This is an error. This is because when cat is run, it is expecting a path to a file, rather than a path to a directory.
+
+**Path to a file as an Argument**
+
+![Image](catfilearg.jpg)
+
+1. The working directory was `/home/lecture1`
+2. The output displays the content from the `messages/fr.txt` path. This shows that "Bonjour le Monde" is what is inside of the `fr.txt` file.
+3. No error.
