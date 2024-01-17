@@ -28,6 +28,8 @@
 ## ls command
 **No Arguments**
 
+![Image](lsnoarg.jpg)
+
 1. The working directory was `/home`
 2. The output shows the files that are in the current directory. In the current directory, there is only lecture1, therefore lecture1 is displayed. It is in blue, because it is either a directroy or a folder.
 3. No error.
