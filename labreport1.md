@@ -50,5 +50,11 @@
 2. The output shows the files that are present within messages/fr.txt. Since messages/fr.txt is the only thing, this is all that is returned in the output.
 3. No error.
 
+## cat command
+**No Arguments**
+
+1. The working directory was `/home`
+2. Since there are no arguments provided, the terminal defaulted to reading the input provided from the keyboard. For this reason, whatever is typed out is repeated back to you.
+3. No error.
 
 
