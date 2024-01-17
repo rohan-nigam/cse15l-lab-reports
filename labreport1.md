@@ -25,4 +25,9 @@
 2. The output explains that the given argument should be a path to a directory, rather than a file. Therefore, the task could not be completed.
 3. Error. This is an error because when running cd commands, it expects the argument to be a path to a directory, not a file. Therefore, when a path to a file was provided, it explains that the argument is not a directory.
 
+## ls command
+**No Arguments**
 
+1. The working directory was `/home`
+2. The output shows the files that are in the current directory. In the current directory, there is only lecture1, therefore lecture1 is displayed. It is in blue, because it is either a directroy or a folder.
+3. No error.
