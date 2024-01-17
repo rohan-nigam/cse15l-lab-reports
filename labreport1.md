@@ -36,4 +36,14 @@
 
 **Path to a directory as an Argument**
 
+![Image](lspatharg.jpg)
+
+1. The working directory was `/home`
+2. The output shows all of the files that are in lecture1. Messages is listed in blue, because it is a folder, whereas the others are not.
+3. No error.
+
+**Path to a file as an Argument**
+
+
+
 
