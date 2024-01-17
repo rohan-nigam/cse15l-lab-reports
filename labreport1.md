@@ -44,6 +44,11 @@
 
 **Path to a file as an Argument**
 
+![Image](lsfilearg.jpg)
+
+1. The working directory was `/home/lecture1`
+2. The output shows the files that are present within messages/fr.txt. Since messages/fr.txt is the only thing, this is all that is returned in the output.
+3. No error.
 
 
 
