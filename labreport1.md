@@ -53,6 +53,8 @@
 ## cat command
 **No Arguments**
 
+![Image](catnoarg.jpg)
+
 1. The working directory was `/home`
 2. Since there are no arguments provided, the terminal defaulted to reading the input provided from the keyboard. For this reason, whatever is typed out is repeated back to you.
 3. No error.
