@@ -18,6 +18,11 @@ public void testReversed1() {
   int[] input2 = { };
   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input2));
 ```
+
+**Symptoms**
+
+
+
 **Before and After Code**
 *Before*
 ```
@@ -147,3 +152,23 @@ Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 *Example 1*
 
 ```
+Rohans-MacBook-Pro-3:docsearch-1 rohannigam$ grep -w "for" technical/government/media/5_Legal_Groups.txt 
+Legal Center at 205 N. 400 West is a project of "And Justice for
+services. "And Justice for All," which solicits donations primarily
+a problem for staff as well as clients. Owning and sharing the
+efficient for those needing legal services. No longer will a woman
+desperate for a protective order, for example, have to run all over
+Sweet Candy Company building for Tomax. The Olafsons are delighted
+```
+This option is used to match the whole word. For example, when the string "for" is given, it will only return instances of "for", and not of it being in a bigger word, such as "forever". This makes it more specific and allows the user to find exactly what they are looking for.
+
+*Example 2*
+
+```
+Rohans-MacBook-Pro-3:docsearch-1 rohannigam$ grep -w "by" technical/plos/journal.pbio.0020010.txt 
+        volumes. The idea was that libraries could save space by removing volumes available in
+        funding to launch any such initiative has to be accompanied by a sound business plan to
+        by my institution, University College London, in joining JSTOR before the JISC deal was
+        has been achieved since 1993, what promise is held out by the next ten years'!
+```
+This option is used to match the whole word. For example, when the string "by" is given, it will only return instances of "by", and not of it being in a bigger word, such as "bye". This makes it more specific and allows the user to find exactly what they are looking for.
