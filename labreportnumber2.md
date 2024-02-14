@@ -17,4 +17,6 @@ The 'public String handleRequest(URI url) method from the Handler class is being
 
 Again, the 'public String handleRequest(URI url) method from the Handler class is being used. The argument for this method is the string url request and it determines what is displayed by the web server. A relevant field that is changed is the return message. The return message changed because at first it was equivalent to the value from the last screenshot, but now we add the new input as well. Therefore, the return message now holds the old output as well as the new one. 
 
+# Part 2
+
 
