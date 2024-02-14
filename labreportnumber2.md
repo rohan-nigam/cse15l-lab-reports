@@ -19,7 +19,11 @@ Again, the 'public String handleRequest(URI url) method from the Handler class i
 
 # Part 2
 
+**Absolute Paths to Public and Private Keys**
+
 ![Image](pubpriv.jpg)
+
+**Logging into account without password**
 
 ![Image](nopassword.jpg)
 
