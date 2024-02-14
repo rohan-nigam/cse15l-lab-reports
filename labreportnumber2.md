@@ -4,3 +4,9 @@
 **Screenshot of ChatServer Code**
 
 ![Image](ChatServerPart1.jpg)
+
+![Image](ChatServerPart2.jpg)
+
+**Screenshots of /add-message**
+
+The 
