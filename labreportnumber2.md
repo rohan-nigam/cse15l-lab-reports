@@ -19,4 +19,10 @@ Again, the 'public String handleRequest(URI url) method from the Handler class i
 
 # Part 2
 
+![Image](pubpriv.jpg)
 
+![Image](nopassword.jpg)
+
+# Part 3
+
+There was a lot that I was able to learn from lab in week 2 and 3. However, what I found the most interesting was the idea of ports. I now understand that ports are used by web servers to communicate with web clients. Earlier, I would always wonder how the two could be connected, and now I understand. Another thing that I learned was that there is a public and a private key for my SSH key for logging into ieng6.
