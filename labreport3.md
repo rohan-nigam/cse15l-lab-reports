@@ -24,6 +24,7 @@ public void testReversed1() {
 
 
 **Before and After Code**
+
 *Before*
 ```
 static int[] reversed(int[] arr) {
