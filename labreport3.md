@@ -2,14 +2,14 @@
 
 # Part 1
 
-chose: reversed(int[] arr) method
+chose: `reversed(int[] arr)` method
 
 **Failure-Inducing Input for Buggy Program**
 ```
 @Test
 public void testReversed() {
-  int[] input1 = {1, 2, 3, 4, 5};
-  assertArrayEquals(new int[]{0, 0, 0, 0, 0}, ArrayExamples.reversed(input1));
+  int[] input1 = {2, 4};
+  assertArrayEquals(new int[]{4, 2}, ArrayExamples.reversed(input1));
 ```
 **Non-Failure-Inducing Input for Buggy Program**
 ```
