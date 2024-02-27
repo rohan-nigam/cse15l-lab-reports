@@ -7,14 +7,14 @@ chose: `reversed(int[] arr)` method
 **Failure-Inducing Input for Buggy Program**
 ```
 @Test
-public void testReversed() {
+public void testReversedFail() {
   int[] input1 = {2, 4};
   assertArrayEquals(new int[]{4, 2}, ArrayExamples.reversed(input1));
 ```
 **Non-Failure-Inducing Input for Buggy Program**
 ```
 @Test
-public void testReversed1() {
+public void testReversedNoFail() {
   int[] input2 = { };
   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input2));
 ```
