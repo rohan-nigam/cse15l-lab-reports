@@ -21,7 +21,7 @@ public void testReversedNoFail() {
 
 **Symptoms**
 
-![Image](output.jpg)
+![Image](outputs.jpg)
 
 **Before and After Code**
 
